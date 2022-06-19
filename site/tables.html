@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tables</title>
+    </head>
+    <body>
+        <h1>Tables</h1>
+        <p>Here are some examples of Tables</p>
+
+        <hr>
+        <h2>Class Timetable  (value spanning two/ three columns)</h2>
+        <table>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">9 am</th>
+                <th scope="col">10 am</th>
+                <th scope="col">11 am</th>
+                <th scope="col">12 pm</th>
+            </tr>
+            <tr>
+                <th scope="row">Monday</th>
+                <td colspan="2">Geography</td>
+                <td>Math</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <th scope="row">Tuesday</th>
+                <td colspan="3">Gym</td>
+                <td>Home Ec</td>
+            </tr>
+        </table>
+
+        <hr>
+        <h2>TV Timetable (value spanning two rows)</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">ABC</th>
+                <th scope="col">BBC</th>
+                <th scope="col">CNN</th>
+            </tr>
+
+            <tr>
+                <th scope="row">6pm - 7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+
+            <tr>
+                <th scope="row">7pm - 8pm</th>
+                <td>Sport</td>
+                <td>Current Affairs</td>
+            </tr>
+        </table>
+
+        <hr>
+        <h2>Website Hosting Plans (Long table)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th scope="col">Home Starter Hosting</th>
+                    <th scope="col">Premium Business Hosting</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Disk Space</th>
+                    <td>250 mb</td>
+                    <td>1 gb</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Bandwidth</th>
+                    <td>5 gb per month</td>
+                    <td>50 gb per month</td>
+                </tr>
+                
+                <tr>
+                    <th scope="row">Email accounts</th>
+                    <td>3</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Server</th>
+                    <td>Shared</td>
+                    <td>VPS</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Support</th>
+                    <td>Email</td>
+                    <td>Telephone and email</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Setup</th>
+                    <td>Free</td>
+                    <td>Free</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">FTP accounts</th>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td colspan="2">Sign up now and save 10 %</td>
+                </tr>    
+            </tfoot>
+                    
+        </table>
+
+
+    </body>
+</html>
