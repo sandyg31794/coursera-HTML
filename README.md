@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-Go to my [Index](https://sandyg31794.github.io/coursera-HTML/site/Index.html) to view my site.
+Go to my [Index](https://sandyg31794.github.io/coursera-HTML/Index.html) to view my site.
 
 You can use the [editor on GitHub](https://github.com/sandyg31794/coursera-HTML/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
