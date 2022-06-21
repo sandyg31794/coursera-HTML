@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Example</title>
+        <style>
+
+            /* all with class="highlight" */
+            .highlight {
+            font-size: 20px;
+            font-style:italic;
+            background-color: rgb(149, 214, 20);
+            opacity: .6;
+            }
+
+            /* all p AND h1 elements */
+            p, h1 {
+                color:blue;
+                text-align: center;
+            }
+            
+            /* element with id="mainPoint" */
+            #mainPoint{
+                font: 24;
+                font-weight: bold;
+                background-color: rgb(14, 239, 239);
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Simple Selectors</h1>
+        
+        <h2 >Subheading 1 (h2)</h2>
+        <p class="highlight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ante dolor. Nullam ullamcorper quam in sagittis tempus. Suspendisse volutpat placerat ligula eu ullamcorper. Proin eros elit, semper vel lorem et, efficitur elementum massa. Nulla commodo, nibh pellentesque placerat vestibulum, leo tellus porta sem, vitae faucibus urna felis ut arcu. Phasellus nec turpis interdum, dignissim ipsum vel, tristique odio. </p>
+        
+        <p>Cras tempus iaculis eros, ac fermentum enim interdum accumsan. Sed dui nulla, iaculis ac ligula non, ornare consectetur quam. Nullam scelerisque, mauris vitae ornare sollicitudin, sapien ante blandit mauris, rutrum venenatis magna odio quis turpis. Nullam ornare, augue eget consequat dapibus, sem erat sagittis nisl, vitae varius purus arcu at sem. Etiam quis porta massa, ac pharetra ligula. Proin eget ipsum nec leo dapibus iaculis ac non velit. Praesent laoreet magna eu neque vestibulum viverra.</p>
+        
+        <h2 >Subheading 2 (h2)</h2>
+        <p>Donec et sollicitudin metus, vitae feugiat diam. Fusce pretium eget orci id tempus. Fusce ultricies efficitur feugiat. Aenean ultrices enim sed magna dictum aliquet. Aenean feugiat tempor lectus, eget elementum tellus cursus in.</p>
+        
+        <p class="highlight">ac porttitor dolor. Mauris mauris tortor, hendrerit pulvinar ornare vitae, lobortis at libero. Morbi mollis massa a finibus semper. Sed quis nibh et erat luctus ornare. Quisque enim orci, tempor in porttitor ac, lacinia id lacus.</p>
+
+        <div>
+            This is the main point of the article. So, <span id="mainPoint"> "highlight this part"</span>.
+        </div>
+
+    </body>
+</html>
