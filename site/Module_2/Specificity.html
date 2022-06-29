@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Specificity</title>
+       
+        <style>
+            header.navigation p {
+                color: blue;
+            }
+            p.blurb{
+                color: red;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header class="navigation">
+            <p class="blurb">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad excepturi eveniet odio, fuga nam quidem reprehenderit placeat commodi? In laudantium cum nam quod vitae at eligendi consequatur sequi cumque.</p>
+        </header>
+ <!-- the paragraph appears in blue because 2 elements are used in that rule vs 1 in the other rule -->
+        
+    </body>
+</html>
