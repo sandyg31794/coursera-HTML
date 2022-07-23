@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Box Model - Overflow</title>
+    <style>
+        #ex1 {
+            box-sizing: border-box;
+            background-color: lightblue;
+            padding: 10px;
+            border: 5px solid black;
+            width: 300px;
+            height: 210px;
+            overflow: visible;
+        }
+
+        #ex2 {
+            box-sizing: border-box;
+            background-color: lightblue;
+            padding: 10px;
+            border: 5px solid black;
+            width: 300px;
+            height: 210px;
+            overflow: hidden;
+        }
+
+        #ex3 {
+            background-color: lightblue;
+            width: 110px;
+            height: 110px;
+            overflow: auto;
+        }
+        #content {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Box Model - Overflow</h1>
+    <h2>overflow: visible:</h2>
+    <div id="ex1">
+        <div id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+    </div>
+
+    <h2>overflow: hidden:</h2>
+    <div id="ex2">
+        <div id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+    </div>
+
+    <h2>overflow: auto:</h2>
+    <div id="ex3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+
+
+</body>
